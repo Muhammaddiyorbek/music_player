@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/yandex_mobileads/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1257522402382630301.xml:2:13-83
+INJECTED from /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/yandex_mobileads/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1257522402382630301.xml:2:13-83
+	package
+		INJECTED from /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/yandex_mobileads/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1257522402382630301.xml
+	xmlns:android
+		ADDED from /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/yandex_mobileads/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1257522402382630301.xml:2:23-81
+uses-sdk
+INJECTED from /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/yandex_mobileads/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1257522402382630301.xml reason: use-sdk injection requested
+INJECTED from /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/yandex_mobileads/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1257522402382630301.xml
+INJECTED from /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/yandex_mobileads/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1257522402382630301.xml
+	android:targetSdkVersion
+		INJECTED from /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/yandex_mobileads/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1257522402382630301.xml
+	android:minSdkVersion
+		INJECTED from /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/yandex_mobileads/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest1257522402382630301.xml

@@ -1,0 +1,251 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.music_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:10:5-67
+15-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:10:22-64
+16    <!-- Ruxsatlar -->
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:4:5-80
+17-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:4:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:5:5-81
+18-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:5:22-78
+19    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+19-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:6:5-75
+19-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:6:22-72
+20    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+20-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:7:5-80
+20-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:7:22-77
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:8:5-77
+21-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:8:22-74
+22    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Android 13+ uchun maxsus sozlamalar -->
+22-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:9:5-68
+22-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:9:22-65
+23    <uses-permission
+23-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:13:5-14:38
+24        android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+24-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:13:22-89
+25        android:maxSdkVersion="34" />
+25-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:14:9-35
+26    <!--
+27 Required to query activities that can process text, see:
+28         https://developer.android.com/training/package-visibility and
+29         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+30
+31         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+32    -->
+33    <queries>
+33-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:70:5-75:15
+34        <intent>
+34-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:71:9-74:18
+35            <action android:name="android.intent.action.PROCESS_TEXT" />
+35-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:72:13-72
+35-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:72:21-70
+36
+37            <data android:mimeType="text/plain" />
+37-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:73:13-50
+37-->/Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/android/app/src/main/AndroidManifest.xml:73:19-48
+38        </intent>
+39    </queries>
+40
+41    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+41-->[androidx.media3:media3-common:1.4.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/784c75164cbdfbd8765b78e0df7f6470/transformed/jetified-media3-common-1.4.1/AndroidManifest.xml:22:5-79
+41-->[androidx.media3:media3-common:1.4.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/784c75164cbdfbd8765b78e0df7f6470/transformed/jetified-media3-common-1.4.1/AndroidManifest.xml:22:22-76
+42
+43    <permission
+43-->[androidx.core:core:1.13.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/dfc2fbca530748e569b0737b09fa016f/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+44        android:name="com.example.music_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+44-->[androidx.core:core:1.13.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/dfc2fbca530748e569b0737b09fa016f/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+45        android:protectionLevel="signature" />
+45-->[androidx.core:core:1.13.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/dfc2fbca530748e569b0737b09fa016f/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+46
+47    <uses-permission android:name="com.example.music_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+47-->[androidx.core:core:1.13.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/dfc2fbca530748e569b0737b09fa016f/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+47-->[androidx.core:core:1.13.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/dfc2fbca530748e569b0737b09fa016f/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+48
+49    <application
+50        android:name="android.app.Application"
+51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+51-->[androidx.core:core:1.13.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/dfc2fbca530748e569b0737b09fa016f/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+52        android:debuggable="true"
+53        android:extractNativeLibs="true"
+54        android:icon="@mipmap/ic_launcher"
+55        android:label="music_app" >
+56        <activity
+57            android:name="com.example.music_app.MainActivity"
+58            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+59            android:exported="true"
+60            android:hardwareAccelerated="true"
+61            android:launchMode="singleTop"
+62            android:taskAffinity=""
+63            android:theme="@style/LaunchTheme"
+64            android:windowSoftInputMode="adjustResize" >
+65
+66            <!--
+67                 Specifies an Android theme to apply to this Activity as soon as
+68                 the Android process has started. This theme is visible to the user
+69                 while the Flutter UI initializes. After that, this theme continues
+70                 to determine the Window background behind the Flutter UI.
+71            -->
+72            <meta-data
+73                android:name="io.flutter.embedding.android.NormalTheme"
+74                android:resource="@style/NormalTheme" />
+75
+76            <intent-filter>
+77                <action android:name="android.intent.action.MAIN" />
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+80            </intent-filter>
+81        </activity>
+82        <!--
+83             Don't delete the meta-data below.
+84             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+85        -->
+86        <meta-data
+87            android:name="flutterEmbedding"
+88            android:value="2" />
+89
+90        <provider
+91            android:name="androidx.core.content.FileProvider"
+92            android:authorities="com.example.music_app.fileprovider"
+93            android:exported="false"
+94            android:grantUriPermissions="true" >
+95            <meta-data
+95-->[:share_plus] /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:13-20:68
+96                android:name="android.support.FILE_PROVIDER_PATHS"
+96-->[:share_plus] /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:17-67
+97                android:resource="@xml/provider_paths" />
+97-->[:share_plus] /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:17-65
+98        </provider>
+99
+100        <service
+101            android:name="com.ryanheise.audio_session.ForegroundService"
+102            android:exported="false" />
+103
+104        <!--
+105           Declares a provider which allows us to store files to share in
+106           '.../caches/share_plus' and grant the receiving action access
+107        -->
+108        <provider
+108-->[:share_plus] /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:9-21:20
+109            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+109-->[:share_plus] /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-77
+110            android:authorities="com.example.music_app.flutter.share_provider"
+110-->[:share_plus] /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:13-74
+111            android:exported="false"
+111-->[:share_plus] /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:13-37
+112            android:grantUriPermissions="true" >
+112-->[:share_plus] /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:13-47
+113            <meta-data
+113-->[:share_plus] /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:13-20:68
+114                android:name="android.support.FILE_PROVIDER_PATHS"
+114-->[:share_plus] /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:17-67
+115                android:resource="@xml/flutter_share_file_paths" />
+115-->[:share_plus] /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:17-65
+116        </provider>
+117        <!--
+118           This manifest declared broadcast receiver allows us to use an explicit
+119           Intent when creating a PendingItent to be informed of the user's choice
+120        -->
+121        <receiver
+121-->[:share_plus] /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:9-32:20
+122            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+122-->[:share_plus] /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:27:13-82
+123            android:exported="false" >
+123-->[:share_plus] /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:13-37
+124            <intent-filter>
+124-->[:share_plus] /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:29:13-31:29
+125                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+125-->[:share_plus] /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:17-65
+125-->[:share_plus] /Users/muhammaddiyor/Documents/Dasturlash/Flutter Dasturlar/music_app/build/share_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:25-62
+126            </intent-filter>
+127        </receiver>
+128
+129        <uses-library
+129-->[androidx.window:window:1.2.0] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/aed2861b2b6894f7067df3f3f96b791f/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+130            android:name="androidx.window.extensions"
+130-->[androidx.window:window:1.2.0] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/aed2861b2b6894f7067df3f3f96b791f/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+131            android:required="false" />
+131-->[androidx.window:window:1.2.0] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/aed2861b2b6894f7067df3f3f96b791f/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+132        <uses-library
+132-->[androidx.window:window:1.2.0] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/aed2861b2b6894f7067df3f3f96b791f/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+133            android:name="androidx.window.sidecar"
+133-->[androidx.window:window:1.2.0] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/aed2861b2b6894f7067df3f3f96b791f/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+134            android:required="false" />
+134-->[androidx.window:window:1.2.0] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/aed2861b2b6894f7067df3f3f96b791f/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+135
+136        <provider
+136-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/bb10008c4b33ee9597583412a41828ed/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+137            android:name="androidx.startup.InitializationProvider"
+137-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/bb10008c4b33ee9597583412a41828ed/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+138            android:authorities="com.example.music_app.androidx-startup"
+138-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/bb10008c4b33ee9597583412a41828ed/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+139            android:exported="false" >
+139-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/bb10008c4b33ee9597583412a41828ed/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+140            <meta-data
+140-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/bb10008c4b33ee9597583412a41828ed/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+141                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+141-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/bb10008c4b33ee9597583412a41828ed/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+142                android:value="androidx.startup" />
+142-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/bb10008c4b33ee9597583412a41828ed/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+143            <meta-data
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+144                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+145                android:value="androidx.startup" />
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+146        </provider>
+147
+148        <receiver
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+149            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+150            android:directBootAware="false"
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+151            android:enabled="true"
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+152            android:exported="true"
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+153            android:permission="android.permission.DUMP" >
+153-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+154            <intent-filter>
+154-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+155                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+155-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+155-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+156            </intent-filter>
+157            <intent-filter>
+157-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+158                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+158-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+158-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+159            </intent-filter>
+160            <intent-filter>
+160-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+161                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+161-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+161-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+162            </intent-filter>
+163            <intent-filter>
+163-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+164                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+164-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+164-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/muhammaddiyor/.gradle/caches/8.10.2/transforms/5aacd87baa6feaa7bece87b01e7698f0/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+165            </intent-filter>
+166        </receiver>
+167    </application>
+168
+169</manifest>

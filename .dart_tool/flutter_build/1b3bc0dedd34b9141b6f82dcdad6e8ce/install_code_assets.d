@@ -1,0 +1,1 @@
+ /Users/muhammaddiyor/Documents/Dasturlash/Flutter\ Dasturlar/music_app/.dart_tool/flutter_build/1b3bc0dedd34b9141b6f82dcdad6e8ce/native_assets.json: 
